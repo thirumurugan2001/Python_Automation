@@ -73,13 +73,13 @@ The server will start on `http://0.0.0.0:8080` with debug mode enabled.
 {
     "productName": "Azure Functions",
     "region": "us-east",
-    "tier": "consumption",
-    "instance": "standard",
+    "tier": "premium",
+    "instance": "ep1-payg",
     "preWarmedCount_input": 5,
-    "preWarmedCountHoursFactor": "monthly",
+    "preWarmedCountHoursFactor": "24",
     "preWarmedCountHoursFactor_input": 730,
     "additionalUnitsCount_input": 1000000,
-    "additionalUnitsCountHoursFactor": "monthly",
+    "additionalUnitsCountHoursFactor": "24",
     "additionalUnitsCountHours_input": 730
 }
 ```
